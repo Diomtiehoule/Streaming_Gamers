@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+body{
+    background-color: #EEF0FB;
+}
+
+/* header partie */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: black;
+    height: 15vh;
+}
+header .logo h1{
+    color: orangered;
+}
+header .logo h2{
+    position: relative;
+    top: -8px;
+    left: 70px;
+    color: white;
+}
+header .links{
+    margin-top: 1%;
+}
+header .links nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+header .links nav ul a{
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.5s;
+}
+header .links nav ul a:hover{
+    color: orangered;
+}
+header .assistance{
+    margin-top: 1%;
+}
+header .assistance a{
+    font-size: 1.2rem;
+    color: white;
+    transition: 0.5s;
+}
+header .assistance a:hover{
+    color: orangered;
+}
+/* fin partie header */
+
+/* main image */
+.main_image img{
+    width: 100%;
+    background-size: cover;
+    margin-top: 12%;
+    margin-bottom: 15%;
+}
+
+/* actu gaming partie */
+.actu_gaming{
+    margin-left: 10%;
+}
+.actu_gaming h1{
+    color: orangered;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+.info_game{
+    width: 40vw;
+    height: auto;
+    padding: 2%;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.info_game .game{
+    display: flex;
+    gap: 20px;
+}
+.game img{
+    width: 15vw;
+    height: 35vh;
+}
+.game .type_console , .game h2{
+    text-align: center;
+}
+.description{
+    margin-top: 2%;
+    font-size: 1.2rem;
+}
+.notes{
+    font-size: 1.2rem;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between
+    ;
+}
+.note span{
+    color: orangered;
+    font-weight: bold;
+}
+/* fin actu gaming */
+
+h1{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+/* animation */
+.tournoi{
+    margin: 0 auto;
+    width: 80vw;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: #D9D9D9;
+    margin-bottom: 5%;
+}
+/* fin animation */
+
+/* tournament parties */*
+.tournoi_combat h3{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+.combats .smash_bros , .combats .street_fighter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 1%;
+    gap: 15px;
+    width: 90vw;
+    background-color: #D9D9D9;
+}
+.smash_bros .info_smash h4 , .street_fighter .info_fighter h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.smash_bros .info_smash p , .street_fighter .info_fighter p{
+    font-size: 1.5rem;
+}
+
+
+.battle_ligue{
+    margin-top: 20%;
+}
+.battle_ligue h3{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 3%;
+}
+.battle .valorant , .battle .lol{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 1%;
+    gap: 15px;
+    width: 90vw;
+    background-color: #D9D9D9;
+}
+.valorant .info_valorant h4 , .lol .info_lol h4{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+.valorant .info_valorant p , .lol .info_lol p{
+    font-size: 1.5rem;
+}
+/* fin tournament */
+
+/* footer partie */
+footer{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: black;
+}
+footer .newsletter{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter p{
+    color: orangered;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.newsletter .msg_space{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.newsletter .msg_space input{
+    width: 20vw;
+    height: 6vh;
+}
+.newsletter .msg_space button{
+    height: 6vh;
+    width: 6vw;
+    background-color: orangered;
+    color: white;
+}
+.border{
+    border: 1px solid orangered;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 3%   ;
+}
+
+.footer_principale{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+}
+.footer_principale h1{
+    color: orangered;
+    font-size: 3.5rem;
+}
+.footer_principale h2{
+    color: white;
+    font-size: 2.2rem;
+    position: relative;
+    top: -8px;
+    left: 140px;
+}
+.about{
+    display: flex;
+    margin-right: 20%;
+}
+.about .border1{
+    border-left: 2px solid white;
+    height: 22vh;
+    margin-right: 5%;
+}
+.about .abouts p{
+    font-size: 1.4rem;
+    color: white;
+}
+
+.follow{
+    margin-right: 5%;
+
+}
+.follow h3{
+    font-size: 1.5rem;
+    color: white;
+}
+.follow .icons{
+    display: flex;
+    gap: 20px;
+}
+.border3{
+    border: 0.5px solid rgba(220, 220, 220, 0.249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer_end{
+    display: flex;
+    border-top: 1px solid rgba(220, 220, 220, 0.249);
+    justify-content: space-between;
+    padding-top: 1%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.footer_end p{
+    font-size: 1.2rem;
+    color: white;
+}
+/* fin footer partie */
